@@ -55,7 +55,7 @@ socket.on('receive',data=>{
 })
 
 socket.on('user-left',data=>{
-  append(`${name} left the chat`,'right')
+  append(`${data.name} left the chat`,'right')
   
 })
 
